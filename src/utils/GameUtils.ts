@@ -27,8 +27,6 @@ class GameUtils {
     const offset = new Date().getTimezoneOffset() / 60;
     console.log('offset ==>', offset);
   }
-
-  static getDateTime(date) {}
 }
 
 export default GameUtils;
