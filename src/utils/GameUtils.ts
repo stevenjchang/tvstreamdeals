@@ -10,7 +10,7 @@ const teamMapping: any = {
 };
 
 class GameUtils {
-  static parseGameParamKey = (key: string) => {
+  static parseGameParamKey = (key: string | any) => {
     const date = key.substring(0, 6);
     const t1 = key.substring(6, 9);
     const t2 = key.substring(9, 12);
