@@ -12,10 +12,7 @@ import Footer from '@/components/footer';
 export default function Home() {
   return (
     <Page>
-      <NextSeo
-        title=""
-        description=""
-      />
+      <NextSeo title="" description="" />
       <Header />
       <main>
         <VideoSection />

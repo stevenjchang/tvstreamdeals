@@ -14,7 +14,19 @@ type Link = {
 
 const links = [
   {
-    label: `Features`,
+    label: `Home`,
+    href: `/`,
+  },
+  {
+    label: `Sports`,
+    href: `/`,
+  },
+  {
+    label: `The App`,
+    href: `/`,
+  },
+  {
+    label: `How It Works`,
     href: `/`,
   },
   {
@@ -22,11 +34,7 @@ const links = [
     href: `/`,
   },
   {
-    label: `Pricing`,
-    href: `/`,
-  },
-  {
-    label: `Blog`,
+    label: `Contact`,
     href: `/`,
   },
 ];
@@ -115,12 +123,12 @@ const Navigation = () => {
   const toggleMenu = () => setShowMenu(!showMenu);
 
   return (
-    <nav className={tw(`bg-white`)}>
+    <nav className={tw(`bg-white md:flex sm:justify-start md:justify-center`)}>
       <div className={tw(`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8`)}>
         <div className={tw(`flex items-center justify-between h-24`)}>
           <div className={tw(`flex items-center`)}>
             <div className={tw(`flex-shrink-0`)}>
-              <img className={tw(`h-12 w-12`)} src="logo.svg" alt="logo" width={48} height={48} />
+              <img className={tw(`h-12 w-12`)} src="/logo.svg" alt="logo" width={48} height={48} />
             </div>
             <div className={tw(`hidden md:block`)}>
               <div className={tw(`ml-10 flex items-baseline space-x-4`)}>
@@ -136,13 +144,13 @@ const Navigation = () => {
               </div>
             </div>
           </div>
-          <div className={tw(`hidden md:block`)}>
+          {/* <div className={tw(`hidden md:block`)}>
             <div className={tw(`ml-4 flex items-center md:ml-6`)}>
               <Button modifier="border-0 mr-2">Contact sales</Button>
               <Button modifier="border-0 mr-2">Log in</Button>
               <Button primary>Get started</Button>
             </div>
-          </div>
+          </div> */}
           <div className={tw(`-mr-2 flex md:hidden`)}>
             <MenuButton showMenu={showMenu} toggleMenu={toggleMenu} />
           </div>
