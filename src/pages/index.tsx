@@ -12,7 +12,8 @@ import Footer from '@/components/footer';
 export default function Home() {
   return (
     <Page>
-      <NextSeo title="" description="" />
+      <h1>home</h1>
+      {/* <NextSeo title="" description="" />
       <Header />
       <main>
         <VideoSection />
@@ -22,7 +23,7 @@ export default function Home() {
         <SocialProof />
         <PricingTable />
       </main>
-      <Footer />
+      <Footer /> */}
     </Page>
   );
 }

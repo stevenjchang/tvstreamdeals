@@ -19,7 +19,7 @@ const links = [
   },
   {
     label: `Sports`,
-    href: `/`,
+    href: `/nba/042320bosbkn`,
   },
   {
     label: `The App`,

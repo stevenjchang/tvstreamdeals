@@ -1,6 +1,8 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { tw, css } from 'twind/css';
+import styled from 'styled-components';
+
 import Button from '@/components/button';
 
 import { NextSeo } from 'next-seo';
@@ -34,6 +36,8 @@ const Team = ({ children }: any) => (
     {children}
   </h1>
 );
+
+const TestStyledComponentsWithTailwind = styled.h1.attrs<any>({ className: `${tw('bg-red-200')}` })``;
 
 const NBAGamePage = () => {
   const router = useRouter();
