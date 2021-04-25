@@ -23,7 +23,12 @@ class GameUtils {
     return teamMapping[abbr] || { name: abbr, city: abbr };
   }
 
-  static getDateTime() {}
+  static toLocalTime() {
+    const offset = new Date().getTimezoneOffset() / 60;
+    console.log('offset ==>', offset);
+  }
+
+  static getDateTime(date) {}
 }
 
 export default GameUtils;
