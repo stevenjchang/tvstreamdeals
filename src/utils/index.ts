@@ -1,3 +1,3 @@
-import GameUtils from './GameUtils';
+import GameUtils from './gameUtils';
 
 export { GameUtils };

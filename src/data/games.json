@@ -1,0 +1,1341 @@
+[
+    {
+        "team1": "Toronto Raptors",
+        "team2": "New York Knicks",
+        "tv": "SNET",
+        "date": "Thu, Apr 22, 2021",
+        "time": "1:00 PM ET"
+    },
+    {
+        "team1": "Toronto Raptors",
+        "team2": "New York Knicks",
+        "tv": "SNET",
+        "date": "Fri, Apr 23, 2021",
+        "time": "1:00 PM ET"
+    },
+    {
+        "team1": "Toronto Raptors",
+        "team2": "New York Knicks",
+        "tv": "SNET",
+        "date": "Sat, Apr 24, 2021",
+        "time": "1:00 PM ET"
+    },
+    {
+        "team1": "Philadelphia 76ers",
+        "team2": "Milwaukee Bucks",
+        "tv": "ESPN",
+        "date": "Sat, Apr 24, 2021",
+        "time": "3:30 PM ET"
+    },
+    {
+        "team1": "Detroit Pistons",
+        "team2": "Indiana Pacers",
+        "tv": "BSIN",
+        "date": "Sat, Apr 24, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Chicago Bulls",
+        "team2": "Miami Heat",
+        "tv": "SUN",
+        "date": "Sat, Apr 24, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "San Antonio Spurs",
+        "team2": "New Orleans Pelicans",
+        "tv": "BSNO",
+        "date": "Sat, Apr 24, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Los Angeles Lakers",
+        "team2": "Dallas Mavericks",
+        "tv": "TSN",
+        "date": "Sat, Apr 24, 2021",
+        "time": "8:30 PM ET"
+    },
+    {
+        "team1": "Minnesota Timberwolves",
+        "team2": "Utah Jazz",
+        "tv": "ATRM",
+        "date": "Sat, Apr 24, 2021",
+        "time": "9:00 PM ET"
+    },
+    {
+        "team1": "Houston Rockets",
+        "team2": "Denver Nuggets",
+        "tv": "ATSW",
+        "date": "Sat, Apr 24, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "Boston Celtics",
+        "team2": "Charlotte Hornets",
+        "tv": "ESPN",
+        "date": "Sun, Apr 25, 2021",
+        "time": "1:00 PM ET"
+    },
+    {
+        "team1": "Phoenix Suns",
+        "team2": "Brooklyn Nets",
+        "tv": "ESPN",
+        "date": "Sun, Apr 25, 2021",
+        "time": "3:30 PM ET"
+    },
+    {
+        "team1": "Memphis Grizzlies",
+        "team2": "Portland Trail Blazers",
+        "tv": "NSNW",
+        "date": "Sun, Apr 25, 2021",
+        "time": "4:00 PM ET"
+    },
+    {
+        "team1": "Cleveland Cavaliers",
+        "team2": "Washington Wizards",
+        "tv": "NSWA",
+        "date": "Sun, Apr 25, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Milwaukee Bucks",
+        "team2": "Atlanta Hawks",
+        "tv": "TSN",
+        "date": "Sun, Apr 25, 2021",
+        "time": "7:30 PM ET"
+    },
+    {
+        "team1": "Indiana Pacers",
+        "team2": "Orlando Magic",
+        "tv": "BSFL",
+        "date": "Sun, Apr 25, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Sacramento Kings",
+        "team2": "Golden State Warriors",
+        "tv": "NBAT",
+        "date": "Sun, Apr 25, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "San Antonio Spurs",
+        "team2": "Washington Wizards",
+        "tv": "NSWA",
+        "date": "Mon, Apr 26, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Atlanta Hawks",
+        "team2": "Detroit Pistons",
+        "tv": "BSDT",
+        "date": "Mon, Apr 26, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Los Angeles Lakers",
+        "team2": "Orlando Magic",
+        "tv": "BSFL",
+        "date": "Mon, Apr 26, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Oklahoma City Thunder",
+        "team2": "Philadelphia 76ers",
+        "tv": "NSPA",
+        "date": "Mon, Apr 26, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Cleveland Cavaliers",
+        "team2": "Toronto Raptors",
+        "tv": "TSN",
+        "date": "Mon, Apr 26, 2021",
+        "time": "7:30 PM ET"
+    },
+    {
+        "team1": "Phoenix Suns",
+        "team2": "New York Knicks",
+        "tv": "NBAT",
+        "date": "Mon, Apr 26, 2021",
+        "time": "7:30 PM ET"
+    },
+    {
+        "team1": "Chicago Bulls",
+        "team2": "Miami Heat",
+        "tv": "SUN",
+        "date": "Mon, Apr 26, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Los Angeles Clippers",
+        "team2": "New Orleans Pelicans",
+        "tv": "BSNO",
+        "date": "Mon, Apr 26, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Utah Jazz",
+        "team2": "Minnesota Timberwolves",
+        "tv": "ATRM",
+        "date": "Mon, Apr 26, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Memphis Grizzlies",
+        "team2": "Denver Nuggets",
+        "tv": "AL2",
+        "date": "Mon, Apr 26, 2021",
+        "time": "9:00 PM ET"
+    },
+    {
+        "team1": "Dallas Mavericks",
+        "team2": "Sacramento Kings",
+        "tv": "NBAT",
+        "date": "Mon, Apr 26, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "Oklahoma City Thunder",
+        "team2": "Boston Celtics",
+        "tv": "NBSB",
+        "date": "Tue, Apr 27, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Milwaukee Bucks",
+        "team2": "Charlotte Hornets",
+        "tv": "NBAT",
+        "date": "Tue, Apr 27, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Portland Trail Blazers",
+        "team2": "Indiana Pacers",
+        "tv": "BSIN",
+        "date": "Tue, Apr 27, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Brooklyn Nets",
+        "team2": "Toronto Raptors",
+        "tv": "SNET",
+        "date": "Tue, Apr 27, 2021",
+        "time": "7:30 PM ET"
+    },
+    {
+        "team1": "Minnesota Timberwolves",
+        "team2": "Houston Rockets",
+        "tv": "ATSW",
+        "date": "Tue, Apr 27, 2021",
+        "time": "9:00 PM ET"
+    },
+    {
+        "team1": "Dallas Mavericks",
+        "team2": "Golden State Warriors",
+        "tv": "TNT",
+        "date": "Tue, Apr 27, 2021",
+        "time": "9:30 PM ET"
+    },
+    {
+        "team1": "Orlando Magic",
+        "team2": "Cleveland Cavaliers",
+        "tv": "BSOH",
+        "date": "Wed, Apr 28, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Atlanta Hawks",
+        "team2": "Philadelphia 76ers",
+        "tv": "NSPA",
+        "date": "Wed, Apr 28, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Charlotte Hornets",
+        "team2": "Boston Celtics",
+        "tv": "NBSB",
+        "date": "Wed, Apr 28, 2021",
+        "time": "7:30 PM ET"
+    },
+    {
+        "team1": "Los Angeles Lakers",
+        "team2": "Washington Wizards",
+        "tv": "NSWA",
+        "date": "Wed, Apr 28, 2021",
+        "time": "7:30 PM ET"
+    },
+    {
+        "team1": "Chicago Bulls",
+        "team2": "New York Knicks",
+        "tv": "TSN",
+        "date": "Wed, Apr 28, 2021",
+        "time": "7:30 PM ET"
+    },
+    {
+        "team1": "San Antonio Spurs",
+        "team2": "Miami Heat",
+        "tv": "SUN",
+        "date": "Wed, Apr 28, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Portland Trail Blazers",
+        "team2": "Memphis Grizzlies",
+        "tv": "BSSE",
+        "date": "Wed, Apr 28, 2021",
+        "time": "9:00 PM ET"
+    },
+    {
+        "team1": "New Orleans Pelicans",
+        "team2": "Denver Nuggets",
+        "tv": "ALT",
+        "date": "Wed, Apr 28, 2021",
+        "time": "9:00 PM ET"
+    },
+    {
+        "team1": "Utah Jazz",
+        "team2": "Sacramento Kings",
+        "tv": "ATRM",
+        "date": "Wed, Apr 28, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "Los Angeles Clippers",
+        "team2": "Phoenix Suns",
+        "tv": "ESPN",
+        "date": "Wed, Apr 28, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "Dallas Mavericks",
+        "team2": "Detroit Pistons",
+        "tv": "BSDT",
+        "date": "Thu, Apr 29, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Brooklyn Nets",
+        "team2": "Indiana Pacers",
+        "tv": "NBAT",
+        "date": "Thu, Apr 29, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Milwaukee Bucks",
+        "team2": "Houston Rockets",
+        "tv": "ATSW",
+        "date": "Thu, Apr 29, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Golden State Warriors",
+        "team2": "Minnesota Timberwolves",
+        "tv": "BSN",
+        "date": "Thu, Apr 29, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "New Orleans Pelicans",
+        "team2": "Oklahoma City Thunder",
+        "tv": "BSOK",
+        "date": "Thu, Apr 29, 2021",
+        "time": "9:00 PM ET"
+    },
+    {
+        "team1": "Toronto Raptors",
+        "team2": "Denver Nuggets",
+        "tv": "SNET",
+        "date": "Thu, Apr 29, 2021",
+        "time": "9:00 PM ET"
+    },
+    {
+        "team1": "Atlanta Hawks",
+        "team2": "Philadelphia 76ers",
+        "tv": "NSPA",
+        "date": "Fri, Apr 30, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "San Antonio Spurs",
+        "team2": "Boston Celtics",
+        "tv": "NBSB",
+        "date": "Fri, Apr 30, 2021",
+        "time": "7:30 PM ET"
+    },
+    {
+        "team1": "Washington Wizards",
+        "team2": "Cleveland Cavaliers",
+        "tv": "BSOH",
+        "date": "Fri, Apr 30, 2021",
+        "time": "7:30 PM ET"
+    },
+    {
+        "team1": "Portland Trail Blazers",
+        "team2": "Brooklyn Nets",
+        "tv": "NBAT",
+        "date": "Fri, Apr 30, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Orlando Magic",
+        "team2": "Memphis Grizzlies",
+        "tv": "BSSE",
+        "date": "Fri, Apr 30, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Milwaukee Bucks",
+        "team2": "Chicago Bulls",
+        "tv": "NBCH",
+        "date": "Fri, Apr 30, 2021",
+        "time": "9:00 PM ET"
+    },
+    {
+        "team1": "Utah Jazz",
+        "team2": "Phoenix Suns",
+        "tv": "ATRM",
+        "date": "Fri, Apr 30, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "Sacramento Kings",
+        "team2": "Los Angeles Lakers",
+        "tv": "NBAT",
+        "date": "Fri, Apr 30, 2021",
+        "time": "10:30 PM ET"
+    },
+    {
+        "team1": "Detroit Pistons",
+        "team2": "Charlotte Hornets",
+        "tv": "BSSE",
+        "date": "Sat, May 1, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Golden State Warriors",
+        "team2": "Houston Rockets",
+        "tv": "ESPN",
+        "date": "Sat, May 1, 2021",
+        "time": "7:30 PM ET"
+    },
+    {
+        "team1": "Chicago Bulls",
+        "team2": "Atlanta Hawks",
+        "tv": "BSSE",
+        "date": "Sat, May 1, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Miami Heat",
+        "team2": "Cleveland Cavaliers",
+        "tv": "BSOH",
+        "date": "Sat, May 1, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Memphis Grizzlies",
+        "team2": "Orlando Magic",
+        "tv": "BSFL",
+        "date": "Sat, May 1, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Indiana Pacers",
+        "team2": "Oklahoma City Thunder",
+        "tv": "BSOK",
+        "date": "Sat, May 1, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "New Orleans Pelicans",
+        "team2": "Minnesota Timberwolves",
+        "tv": "BSN+",
+        "date": "Sat, May 1, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Washington Wizards",
+        "team2": "Dallas Mavericks",
+        "tv": "BSSW",
+        "date": "Sat, May 1, 2021",
+        "time": "9:00 PM ET"
+    },
+    {
+        "team1": "Denver Nuggets",
+        "team2": "Los Angeles Clippers",
+        "tv": "ESPN",
+        "date": "Sat, May 1, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "Toronto Raptors",
+        "team2": "Utah Jazz",
+        "tv": "ATRM",
+        "date": "Sat, May 1, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "Brooklyn Nets",
+        "team2": "Milwaukee Bucks",
+        "tv": "ABC",
+        "date": "Sun, May 2, 2021",
+        "time": "3:30 PM ET"
+    },
+    {
+        "team1": "Portland Trail Blazers",
+        "team2": "Boston Celtics",
+        "tv": "TSN",
+        "date": "Sun, May 2, 2021",
+        "time": "7:30 PM ET"
+    },
+    {
+        "team1": "Miami Heat",
+        "team2": "Charlotte Hornets",
+        "tv": "BSSE",
+        "date": "Sun, May 2, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Sacramento Kings",
+        "team2": "Dallas Mavericks",
+        "tv": "NSCA",
+        "date": "Sun, May 2, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "New York Knicks",
+        "team2": "Houston Rockets",
+        "tv": "ATSW",
+        "date": "Sun, May 2, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Philadelphia 76ers",
+        "team2": "San Antonio Spurs",
+        "tv": "BSSW",
+        "date": "Sun, May 2, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Phoenix Suns",
+        "team2": "Oklahoma City Thunder",
+        "tv": "BSAZ",
+        "date": "Sun, May 2, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Toronto Raptors",
+        "team2": "Los Angeles Lakers",
+        "tv": "NBAT",
+        "date": "Sun, May 2, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "Indiana Pacers",
+        "team2": "Washington Wizards",
+        "tv": "NSWA",
+        "date": "Mon, May 3, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Orlando Magic",
+        "team2": "Detroit Pistons",
+        "tv": "BSDT",
+        "date": "Mon, May 3, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Golden State Warriors",
+        "team2": "New Orleans Pelicans",
+        "tv": "ESPN",
+        "date": "Mon, May 3, 2021",
+        "time": "7:30 PM ET"
+    },
+    {
+        "team1": "Portland Trail Blazers",
+        "team2": "Atlanta Hawks",
+        "tv": "BSSE",
+        "date": "Mon, May 3, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "New York Knicks",
+        "team2": "Memphis Grizzlies",
+        "tv": "BSSE",
+        "date": "Mon, May 3, 2021",
+        "time": "9:00 PM ET"
+    },
+    {
+        "team1": "Philadelphia 76ers",
+        "team2": "Chicago Bulls",
+        "tv": "NBCH",
+        "date": "Mon, May 3, 2021",
+        "time": "9:00 PM ET"
+    },
+    {
+        "team1": "Denver Nuggets",
+        "team2": "Los Angeles Lakers",
+        "tv": "ESPN",
+        "date": "Mon, May 3, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "San Antonio Spurs",
+        "team2": "Utah Jazz",
+        "tv": "ATRM",
+        "date": "Mon, May 3, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "Phoenix Suns",
+        "team2": "Cleveland Cavaliers",
+        "tv": "BSAZ",
+        "date": "Tue, May 4, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Charlotte Hornets",
+        "team2": "Detroit Pistons",
+        "tv": "BSDT",
+        "date": "Tue, May 4, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Brooklyn Nets",
+        "team2": "Milwaukee Bucks",
+        "tv": "TNT",
+        "date": "Tue, May 4, 2021",
+        "time": "7:30 PM ET"
+    },
+    {
+        "team1": "Dallas Mavericks",
+        "team2": "Miami Heat",
+        "tv": "SUN",
+        "date": "Tue, May 4, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Golden State Warriors",
+        "team2": "New Orleans Pelicans",
+        "tv": "BSNO",
+        "date": "Tue, May 4, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Sacramento Kings",
+        "team2": "Oklahoma City Thunder",
+        "tv": "BSOK",
+        "date": "Tue, May 4, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Toronto Raptors",
+        "team2": "Los Angeles Clippers",
+        "tv": "TNT",
+        "date": "Tue, May 4, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "Boston Celtics",
+        "team2": "Orlando Magic",
+        "tv": "BSFL",
+        "date": "Wed, May 5, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Portland Trail Blazers",
+        "team2": "Cleveland Cavaliers",
+        "tv": "BSOH",
+        "date": "Wed, May 5, 2021",
+        "time": "7:30 PM ET"
+    },
+    {
+        "team1": "Phoenix Suns",
+        "team2": "Atlanta Hawks",
+        "tv": "BSAZ",
+        "date": "Wed, May 5, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Philadelphia 76ers",
+        "team2": "Houston Rockets",
+        "tv": "ASW2",
+        "date": "Wed, May 5, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Sacramento Kings",
+        "team2": "Indiana Pacers",
+        "tv": "BSIN",
+        "date": "Wed, May 5, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Memphis Grizzlies",
+        "team2": "Minnesota Timberwolves",
+        "tv": "BSSE",
+        "date": "Wed, May 5, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Washington Wizards",
+        "team2": "Milwaukee Bucks",
+        "tv": "BSWI",
+        "date": "Wed, May 5, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "San Antonio Spurs",
+        "team2": "Utah Jazz",
+        "tv": "ATRM",
+        "date": "Wed, May 5, 2021",
+        "time": "9:00 PM ET"
+    },
+    {
+        "team1": "New York Knicks",
+        "team2": "Denver Nuggets",
+        "tv": "AL2",
+        "date": "Wed, May 5, 2021",
+        "time": "9:00 PM ET"
+    },
+    {
+        "team1": "Chicago Bulls",
+        "team2": "Charlotte Hornets",
+        "tv": "BSSE",
+        "date": "Thu, May 6, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Brooklyn Nets",
+        "team2": "Dallas Mavericks",
+        "tv": "YES",
+        "date": "Thu, May 6, 2021",
+        "time": "7:30 PM ET"
+    },
+    {
+        "team1": "Washington Wizards",
+        "team2": "Toronto Raptors",
+        "tv": "SNET",
+        "date": "Thu, May 6, 2021",
+        "time": "7:30 PM ET"
+    },
+    {
+        "team1": "Memphis Grizzlies",
+        "team2": "Detroit Pistons",
+        "tv": "BSDT",
+        "date": "Thu, May 6, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Atlanta Hawks",
+        "team2": "Indiana Pacers",
+        "tv": "BSIN",
+        "date": "Thu, May 6, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Oklahoma City Thunder",
+        "team2": "Golden State Warriors",
+        "tv": "NSBA",
+        "date": "Thu, May 6, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "Los Angeles Lakers",
+        "team2": "Los Angeles Clippers",
+        "tv": "TNT",
+        "date": "Thu, May 6, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "New Orleans Pelicans",
+        "team2": "Philadelphia 76ers",
+        "tv": "NSPA",
+        "date": "Fri, May 7, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Boston Celtics",
+        "team2": "Chicago Bulls",
+        "tv": "ESPN",
+        "date": "Fri, May 7, 2021",
+        "time": "7:30 PM ET"
+    },
+    {
+        "team1": "Orlando Magic",
+        "team2": "Charlotte Hornets",
+        "tv": "BSFL",
+        "date": "Fri, May 7, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Minnesota Timberwolves",
+        "team2": "Miami Heat",
+        "tv": "SUN",
+        "date": "Fri, May 7, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Houston Rockets",
+        "team2": "Milwaukee Bucks",
+        "tv": "ASW2",
+        "date": "Fri, May 7, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Cleveland Cavaliers",
+        "team2": "Dallas Mavericks",
+        "tv": "BSSW",
+        "date": "Fri, May 7, 2021",
+        "time": "8:30 PM ET"
+    },
+    {
+        "team1": "Los Angeles Lakers",
+        "team2": "Portland Trail Blazers",
+        "tv": "TSN",
+        "date": "Fri, May 7, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "Denver Nuggets",
+        "team2": "Utah Jazz",
+        "tv": "ATRM",
+        "date": "Fri, May 7, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "San Antonio Spurs",
+        "team2": "Sacramento Kings",
+        "tv": "NSCA",
+        "date": "Fri, May 7, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "New York Knicks",
+        "team2": "Phoenix Suns",
+        "tv": "BSAZ",
+        "date": "Fri, May 7, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "Washington Wizards",
+        "team2": "Indiana Pacers",
+        "tv": "NBAT",
+        "date": "Sat, May 8, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Detroit Pistons",
+        "team2": "Philadelphia 76ers",
+        "tv": "NSPA",
+        "date": "Sat, May 8, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Memphis Grizzlies",
+        "team2": "Toronto Raptors",
+        "tv": "TSN",
+        "date": "Sat, May 8, 2021",
+        "time": "7:30 PM ET"
+    },
+    {
+        "team1": "Oklahoma City Thunder",
+        "team2": "Golden State Warriors",
+        "date": "Sat, May 8, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "San Antonio Spurs",
+        "team2": "Portland Trail Blazers",
+        "tv": "NSNW",
+        "date": "Sat, May 8, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "Houston Rockets",
+        "team2": "Utah Jazz",
+        "tv": "ATRM",
+        "date": "Sat, May 8, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "Brooklyn Nets",
+        "team2": "Denver Nuggets",
+        "tv": "NBAT",
+        "date": "Sat, May 8, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "Miami Heat",
+        "team2": "Boston Celtics",
+        "tv": "ESPN",
+        "date": "Sun, May 9, 2021",
+        "time": "1:00 PM ET"
+    },
+    {
+        "team1": "New York Knicks",
+        "team2": "Los Angeles Clippers",
+        "tv": "BSSC",
+        "date": "Sun, May 9, 2021",
+        "time": "3:30 PM ET"
+    },
+    {
+        "team1": "Dallas Mavericks",
+        "team2": "Cleveland Cavaliers",
+        "tv": "TSN",
+        "date": "Sun, May 9, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "New Orleans Pelicans",
+        "team2": "Charlotte Hornets",
+        "tv": "NBAT",
+        "date": "Sun, May 9, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Minnesota Timberwolves",
+        "team2": "Orlando Magic",
+        "tv": "BSFL",
+        "date": "Sun, May 9, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Chicago Bulls",
+        "team2": "Detroit Pistons",
+        "tv": "BSDT",
+        "date": "Sun, May 9, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Phoenix Suns",
+        "team2": "Los Angeles Lakers",
+        "tv": "NBAT",
+        "date": "Sun, May 9, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "Oklahoma City Thunder",
+        "team2": "Sacramento Kings",
+        "tv": "NSCA",
+        "date": "Sun, May 9, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "Washington Wizards",
+        "team2": "Atlanta Hawks",
+        "tv": "NBAT",
+        "date": "Mon, May 10, 2021",
+        "time": "7:30 PM ET"
+    },
+    {
+        "team1": "Indiana Pacers",
+        "team2": "Cleveland Cavaliers",
+        "tv": "BSOH",
+        "date": "Mon, May 10, 2021",
+        "time": "7:30 PM ET"
+    },
+    {
+        "team1": "New Orleans Pelicans",
+        "team2": "Memphis Grizzlies",
+        "tv": "TSN",
+        "date": "Mon, May 10, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Milwaukee Bucks",
+        "team2": "San Antonio Spurs",
+        "tv": "KENS",
+        "date": "Mon, May 10, 2021",
+        "time": "8:30 PM ET"
+    },
+    {
+        "team1": "Utah Jazz",
+        "team2": "Golden State Warriors",
+        "tv": "NBAT",
+        "date": "Mon, May 10, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "Houston Rockets",
+        "team2": "Portland Trail Blazers",
+        "tv": "ASW2",
+        "date": "Mon, May 10, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "Miami Heat",
+        "team2": "Boston Celtics",
+        "tv": "SUN",
+        "date": "Tue, May 11, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Denver Nuggets",
+        "team2": "Charlotte Hornets",
+        "tv": "BSSE",
+        "date": "Tue, May 11, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Minnesota Timberwolves",
+        "team2": "Detroit Pistons",
+        "tv": "BSDT",
+        "date": "Tue, May 11, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Los Angeles Clippers",
+        "team2": "Toronto Raptors",
+        "tv": "SNET",
+        "date": "Tue, May 11, 2021",
+        "time": "7:30 PM ET"
+    },
+    {
+        "team1": "Philadelphia 76ers",
+        "team2": "Indiana Pacers",
+        "tv": "BSIN",
+        "date": "Tue, May 11, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Dallas Mavericks",
+        "team2": "Memphis Grizzlies",
+        "tv": "BSSW",
+        "date": "Tue, May 11, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Brooklyn Nets",
+        "team2": "Chicago Bulls",
+        "tv": "YES2",
+        "date": "Tue, May 11, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Orlando Magic",
+        "team2": "Milwaukee Bucks",
+        "tv": "BSWI",
+        "date": "Tue, May 11, 2021",
+        "time": "9:00 PM ET"
+    },
+    {
+        "team1": "Phoenix Suns",
+        "team2": "Golden State Warriors",
+        "tv": "BSAZ",
+        "date": "Tue, May 11, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "Oklahoma City Thunder",
+        "team2": "Sacramento Kings",
+        "tv": "NSCA",
+        "date": "Tue, May 11, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "New York Knicks",
+        "team2": "Los Angeles Lakers",
+        "tv": "SPEC",
+        "date": "Tue, May 11, 2021",
+        "time": "10:30 PM ET"
+    },
+    {
+        "team1": "Washington Wizards",
+        "team2": "Atlanta Hawks",
+        "tv": "BSSE",
+        "date": "Wed, May 12, 2021",
+        "time": "7:30 PM ET"
+    },
+    {
+        "team1": "San Antonio Spurs",
+        "team2": "Brooklyn Nets",
+        "tv": "YES2",
+        "date": "Wed, May 12, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Boston Celtics",
+        "team2": "Cleveland Cavaliers",
+        "tv": "BSOH",
+        "date": "Wed, May 12, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "New Orleans Pelicans",
+        "team2": "Dallas Mavericks",
+        "tv": "TSN",
+        "date": "Wed, May 12, 2021",
+        "time": "9:00 PM ET"
+    },
+    {
+        "team1": "Portland Trail Blazers",
+        "team2": "Utah Jazz",
+        "tv": "ATRM",
+        "date": "Wed, May 12, 2021",
+        "time": "9:00 PM ET"
+    },
+    {
+        "team1": "Houston Rockets",
+        "team2": "Los Angeles Lakers",
+        "tv": "ATSW",
+        "date": "Wed, May 12, 2021",
+        "time": "10:30 PM ET"
+    },
+    {
+        "team1": "Los Angeles Clippers",
+        "team2": "Charlotte Hornets",
+        "tv": "BSSC",
+        "date": "Thu, May 13, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Milwaukee Bucks",
+        "team2": "Indiana Pacers",
+        "tv": "BSIN",
+        "date": "Thu, May 13, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Orlando Magic",
+        "team2": "Atlanta Hawks",
+        "tv": "BSSE",
+        "date": "Thu, May 13, 2021",
+        "time": "7:30 PM ET"
+    },
+    {
+        "team1": "Philadelphia 76ers",
+        "team2": "Miami Heat",
+        "tv": "SUN",
+        "date": "Thu, May 13, 2021",
+        "time": "7:30 PM ET"
+    },
+    {
+        "team1": "San Antonio Spurs",
+        "team2": "New York Knicks",
+        "tv": "MSG",
+        "date": "Thu, May 13, 2021",
+        "time": "7:30 PM ET"
+    },
+    {
+        "team1": "Sacramento Kings",
+        "team2": "Memphis Grizzlies",
+        "tv": "BSSE",
+        "date": "Thu, May 13, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Toronto Raptors",
+        "team2": "Chicago Bulls",
+        "tv": "TSN",
+        "date": "Thu, May 13, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Denver Nuggets",
+        "team2": "Minnesota Timberwolves",
+        "tv": "BSN",
+        "date": "Thu, May 13, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Portland Trail Blazers",
+        "team2": "Phoenix Suns",
+        "tv": "BSAZ",
+        "date": "Thu, May 13, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "Cleveland Cavaliers",
+        "team2": "Washington Wizards",
+        "tv": "NSWA",
+        "date": "Fri, May 14, 2021",
+        "time": "7:00 PM ET"
+    },
+    {
+        "team1": "Denver Nuggets",
+        "team2": "Detroit Pistons",
+        "tv": "BSD+",
+        "date": "Fri, May 14, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Orlando Magic",
+        "team2": "Philadelphia 76ers",
+        "tv": "NSPA",
+        "date": "Fri, May 14, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Utah Jazz",
+        "team2": "Oklahoma City Thunder",
+        "tv": "ATRM",
+        "date": "Fri, May 14, 2021",
+        "time": "8:00 PM ET"
+    },
+    {
+        "team1": "Toronto Raptors",
+        "team2": "Dallas Mavericks",
+        "tv": "TSN",
+        "date": "Fri, May 14, 2021",
+        "time": "9:00 PM ET"
+    },
+    {
+        "team1": "Los Angeles Clippers",
+        "team2": "Houston Rockets",
+        "tv": "ATSW",
+        "date": "Fri, May 14, 2021",
+        "time": "9:00 PM ET"
+    },
+    {
+        "team1": "Sacramento Kings",
+        "team2": "Memphis Grizzlies",
+        "tv": "BSSE",
+        "date": "Fri, May 14, 2021",
+        "time": "9:00 PM ET"
+    },
+    {
+        "team1": "New Orleans Pelicans",
+        "team2": "Golden State Warriors",
+        "tv": "NSBA",
+        "date": "Fri, May 14, 2021",
+        "time": "10:00 PM ET"
+    },
+    {
+        "team1": "Chicago Bulls",
+        "team2": "Brooklyn Nets",
+        "date": "Sat, May 15, 2021",
+        "time": "TBA"
+    },
+    {
+        "team1": "Los Angeles Lakers",
+        "team2": "Indiana Pacers",
+        "tv": "SPEC",
+        "date": "Sat, May 15, 2021",
+        "time": "TBA"
+    },
+    {
+        "team1": "Phoenix Suns",
+        "team2": "San Antonio Spurs",
+        "tv": "BSAZ",
+        "date": "Sat, May 15, 2021",
+        "time": "TBA"
+    },
+    {
+        "team1": "Charlotte Hornets",
+        "team2": "New York Knicks",
+        "tv": "TSN",
+        "date": "Sat, May 15, 2021",
+        "time": "TBA"
+    },
+    {
+        "team1": "Miami Heat",
+        "team2": "Milwaukee Bucks",
+        "date": "Sat, May 15, 2021",
+        "time": "TBA"
+    },
+    {
+        "team1": "Boston Celtics",
+        "team2": "Minnesota Timberwolves",
+        "date": "Sat, May 15, 2021",
+        "time": "TBA"
+    },
+    {
+        "team1": "Cleveland Cavaliers",
+        "team2": "Brooklyn Nets",
+        "date": "Sun, May 16, 2021",
+        "time": "TBA"
+    },
+    {
+        "team1": "Charlotte Hornets",
+        "team2": "Washington Wizards",
+        "date": "Sun, May 16, 2021",
+        "time": "TBA"
+    },
+    {
+        "team1": "Miami Heat",
+        "team2": "Detroit Pistons",
+        "date": "Sun, May 16, 2021",
+        "time": "TBA"
+    },
+    {
+        "team1": "Indiana Pacers",
+        "team2": "Toronto Raptors",
+        "tv": "TSN",
+        "date": "Sun, May 16, 2021",
+        "time": "TBA"
+    },
+    {
+        "team1": "Phoenix Suns",
+        "team2": "San Antonio Spurs",
+        "tv": "BSAZ",
+        "date": "Sun, May 16, 2021",
+        "time": "TBA"
+    },
+    {
+        "team1": "Boston Celtics",
+        "team2": "New York Knicks",
+        "tv": "TSN",
+        "date": "Sun, May 16, 2021",
+        "time": "TBA"
+    },
+    {
+        "team1": "Orlando Magic",
+        "team2": "Philadelphia 76ers",
+        "date": "Sun, May 16, 2021",
+        "time": "TBA"
+    },
+    {
+        "team1": "Denver Nuggets",
+        "team2": "Portland Trail Blazers",
+        "date": "Sun, May 16, 2021",
+        "time": "TBA"
+    },
+    {
+        "team1": "Utah Jazz",
+        "team2": "Sacramento Kings",
+        "tv": "ATRM",
+        "date": "Sun, May 16, 2021",
+        "time": "TBA"
+    },
+    {
+        "team1": "Los Angeles Lakers",
+        "team2": "New Orleans Pelicans",
+        "tv": "SPEC",
+        "date": "Sun, May 16, 2021",
+        "time": "TBA"
+    },
+    {
+        "team1": "Milwaukee Bucks",
+        "team2": "Chicago Bulls",
+        "date": "Sun, May 16, 2021",
+        "time": "TBA"
+    },
+    {
+        "team1": "Los Angeles Clippers",
+        "team2": "Oklahoma City Thunder",
+        "date": "Sun, May 16, 2021",
+        "time": "TBA"
+    },
+    {
+        "team1": "Dallas Mavericks",
+        "team2": "Minnesota Timberwolves",
+        "date": "Sun, May 16, 2021",
+        "time": "TBA"
+    },
+    {
+        "team1": "Houston Rockets",
+        "team2": "Atlanta Hawks",
+        "tv": "ATSW",
+        "date": "Sun, May 16, 2021",
+        "time": "TBA"
+    },
+    {
+        "team1": "Memphis Grizzlies",
+        "team2": "Golden State Warriors",
+        "tv": "TSN",
+        "date": "Sun, May 16, 2021",
+        "time": "TBA"
+    }
+]

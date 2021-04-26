@@ -46,7 +46,8 @@ const NBAGamePage = () => {
     return null;
   }
 
-  const { date, team1, team2 } = GameUtils.parseGameParamKey(game);
+  const { date, team1, team2, time } = GameUtils.parseGameParamKey(game);
+  console.log('time ==>', time);
 
   GameUtils.toLocalTime();
 
@@ -60,7 +61,7 @@ const NBAGamePage = () => {
             <p className={tw(`text-xl`)}>vs</p>
             <Team>{team2.name}</Team>
             <div className={tw(`max-w-xl mx-auto`)}>
-              <p className={tw(`mt-10 text-gray-500 text-xl lg:text-3xl`)}>4:05 PM Today | Apr 24</p>
+              <p className={tw(`mt-10 text-gray-500 text-xl lg:text-3xl`)}>{time} Today | Apr 24</p>
             </div>
             <div className={tw(`mt-10 flex justify-center items-center w-full mx-auto`)}>
               <Button primary large>
@@ -68,6 +69,28 @@ const NBAGamePage = () => {
               </Button>
             </div>
           </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <h2>FEATURED TV STREAMING APP OF THE MONTH</h2>
+          <br />
+          <br />
+          <img alt="vidgo" src="/images/vidgo.webp" />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           {/* <div className={tw(`flex justify-center w-full`)}>
             <div className={tw(`mt-4 w-full`)}>
               <p className={tw(`font-mono uppercase text-center font-medium text-sm text-gray-600`)}>

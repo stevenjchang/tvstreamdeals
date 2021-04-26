@@ -1,0 +1,184 @@
+{
+    "data": [
+        {
+            "abbr": "atl",
+            "fullName": "Atlanta Hawks",
+            "name": "Hawks",
+            "city": "Atlanta"
+        },
+        {
+            "abbr": "bos",
+            "fullName": "Boston Celtics",
+            "name": "Celtics",
+            "city": "Boston"
+        },
+        {
+            "abbr": "bkn",
+            "fullName": "Brooklyn Nets",
+            "name": "Nets",
+            "city": "Brooklyn"
+        },
+        {
+            "abbr": "cha",
+            "fullName": "Charlotte Hornets",
+            "name": "Hornets",
+            "city": "Charlotte"
+        },
+        {
+            "abbr": "chi",
+            "fullName": "Chicago Bulls",
+            "name": "Bulls",
+            "city": "Chicago"
+        },
+        {
+            "abbr": "cle",
+            "fullName": "Cleveland Cavaliers",
+            "name": "Cavaliers",
+            "city": "Cleveland"
+        },
+        {
+            "abbr": "dal",
+            "fullName": "Dallas Mavericks",
+            "name": "Mavericks",
+            "city": "Dallas"
+        },
+        {
+            "abbr": "den",
+            "fullName": "Denver Nuggets",
+            "name": "Nuggets",
+            "city": "Denver"
+        },
+        {
+            "abbr": "det",
+            "fullName": "Detroit Pistons",
+            "name": "Pistons",
+            "city": "Detroit"
+        },
+        {
+            "abbr": "gsw",
+            "fullName": "Golden State Warriors",
+            "name": "Warriors",
+            "city": "Golden State"
+        },
+        {
+            "abbr": "hou",
+            "fullName": "Houston Rockets",
+            "name": "Rockets",
+            "city": "Houston"
+        },
+        {
+            "abbr": "ind",
+            "fullName": "Indiana Pacers",
+            "name": "Pacers",
+            "city": "Indiana"
+        },
+        {
+            "abbr": "lac",
+            "fullName": "Los Angeles Clippers",
+            "name": "Clippers",
+            "city": "Los Angeles"
+        },
+        {
+            "abbr": "lal",
+            "fullName": "Los Angeles Lakers",
+            "name": "Lakers",
+            "city": "Los Angeles"
+        },
+        {
+            "abbr": "mem",
+            "fullName": "Memphis Grizzlies",
+            "name": "Grizzlies",
+            "city": "Memphis"
+        },
+        {
+            "abbr": "mia",
+            "fullName": "Miami Heat",
+            "name": "Heat",
+            "city": "Miami"
+        },
+        {
+            "abbr": "mil",
+            "fullName": "Milwaukee Bucks",
+            "name": "Bucks",
+            "city": "Milwaukee"
+        },
+        {
+            "abbr": "min",
+            "fullName": "Minnesota Timberwolves",
+            "name": "Timberwolves",
+            "city": "Minnesota"
+        },
+        {
+            "abbr": "nop",
+            "fullName": "New Orleans Pelicans",
+            "name": "Pelicans",
+            "city": "New Orleans"
+        },
+        {
+            "abbr": "nyk",
+            "fullName": "New York Knicks",
+            "name": "Knicks",
+            "city": "New York"
+        },
+        {
+            "abbr": "okc",
+            "fullName": "Oklahoma City Thunder",
+            "name": "Thunder",
+            "city": "Oklahoma City"
+        },
+        {
+            "abbr": "orl",
+            "fullName": "Orlando Magic",
+            "name": "Magic",
+            "city": "Orlando"
+        },
+        {
+            "abbr": "phi",
+            "fullName": "Philadelphia 76ers",
+            "name": "76ers",
+            "city": "Philadelphia"
+        },
+        {
+            "abbr": "phx",
+            "fullName": "Phoenix Suns",
+            "name": "Suns",
+            "city": "Phoenix"
+        },
+        {
+            "abbr": "por",
+            "fullName": "Portland Trail Blazers",
+            "name": "Trail Blazers",
+            "city": "Portland"
+        },
+        {
+            "abbr": "sac",
+            "fullName": "Sacramento Kings",
+            "name": "Kings",
+            "city": "Sacramento"
+        },
+        {
+            "abbr": "sas",
+            "fullName": "San Antonio Spurs",
+            "name": "Spurs",
+            "city": "San Antonio"
+        },
+        {
+            "abbr": "tor",
+            "fullName": "Toronto Raptors",
+            "name": "Raptors",
+            "city": "Toronto"
+        },
+        {
+            "abbr": "uta",
+            "fullName": "Utah Jazz",
+            "name": "Jazz",
+            "city": "Utah"
+        },
+        {
+            "abbr": "was",
+            "fullName": "Washington Wizards",
+            "name": "Wizards",
+            "city": "Washington"
+        }
+    ]
+}
