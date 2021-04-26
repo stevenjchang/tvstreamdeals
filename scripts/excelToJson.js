@@ -32,12 +32,13 @@ const formatTeamMapping = () => {
   const jsonData = JSON.parse(rawData).data;
   const newData = jsonData.map((item) => {
     return {
-      ...item,
-      teamId: null,
-      abbreviation: item.abbreviation.toLowerCase(),
+      abbr: item.abbreviation.toLowerCase(),
+      fullName: item.teamName,
+      name: item.simpleName,
+      city: item.location,
     };
   });
-  fs.writeFile('./src/utils/gameUtils/teamMapping.json', JSON.stringify(newData, null, 4), (err) =>
+  fs.writeFile('./src/utils/gameUtils/teamMapping.json', JSON.stringify({ data: newData }, null, 4), (err) =>
     console.log('writeFile error ==>', err),
   );
   console.log('formatTeamMapping successful ==>', formatTeamMapping);
