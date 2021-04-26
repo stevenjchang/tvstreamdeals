@@ -1,5 +1,6 @@
 {
   "search.exclude": {
+    ".next": true,
     "public": true,
     "src/constants": true
   }
