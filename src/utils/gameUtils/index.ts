@@ -9,18 +9,17 @@ const teamMapping: any = {
   },
 };
 
-function toDisplayTime(timeAsString) {
+function toDisplayTime(timeAsString: any) {
   const h = timeAsString.substring(0, 2);
   const hour = h[0] === '0' ? h[1] : h;
   const minute = timeAsString.substring(2, 4);
   return `${hour}:${minute} PM`;
 }
 
-function toDisplayDate(str) {
+function toDisplayDate(str: any) {
   const d = new Date(str);
-  console.log('d ==>', d);
 }
-class GameUtils {
+export class GameUtils {
   static parseGameParamKey = (key: string | any) => {
     const date = key.substring(0, 6);
     const time = key.substring(6, 10);
@@ -30,7 +29,6 @@ class GameUtils {
     const team2 = GameUtils.getTeam(t2);
 
     const test = toDisplayDate(date);
-    console.log('test ==>', test);
 
     return { date, team1, team2, time: toDisplayTime(time) };
   };
