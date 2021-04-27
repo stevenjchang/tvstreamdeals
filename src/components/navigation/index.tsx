@@ -94,7 +94,7 @@ const MenuButton = ({ toggleMenu, showMenu }: IMenuButton) => (
 );
 
 const MobileMenu = () => (
-  <div className={tw(`md:hidden`)}>
+  <div className={tw(`md:hidden`)} style={{ height: '100vh' }}>
     <div className={tw(`px-2 pt-2 pb-3 space-y-1 sm:px-3`)}>
       {links.map((link: Link) => (
         <a
@@ -106,7 +106,7 @@ const MobileMenu = () => (
         </a>
       ))}
     </div>
-    <div className={tw(`pt-4 pb-3 border-t border-gray-400`)}>
+    {/* <div className={tw(`pt-4 pb-3 border-t border-gray-400`)}>
       <div className={tw(`px-2 space-y-1`)}>
         {secondaryLinks.map((link: Link) => (
           <a
@@ -118,7 +118,7 @@ const MobileMenu = () => (
           </a>
         ))}
       </div>
-    </div>
+    </div> */}
   </div>
 );
 
@@ -127,12 +127,12 @@ const Navigation = () => {
   const toggleMenu = () => setShowMenu(!showMenu);
 
   return (
-    <nav className={tw(`bg-white md:flex sm:justify-start md:justify-center`)}>
+    <nav className={tw(`md:flex sm:justify-start md:justify-center`)} style={{ height: '120px' }}>
       <div className={tw(`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8`)}>
         <div className={tw(`flex items-center justify-between h-24`)}>
           <div className={tw(`flex items-center`)}>
             <div className={tw(`flex-shrink-0`)}>
-              <img className={tw(`h-12 w-12`)} src="/logo.svg" alt="logo" width={48} height={48} />
+              {/* <img className={tw(`h-12 w-12`)} src="/logo.svg" alt="logo" width={48} height={48} /> */}
             </div>
             <div className={tw(`hidden md:block`)}>
               <div className={tw(`ml-10 flex items-baseline space-x-4`)}>

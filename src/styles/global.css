@@ -2,6 +2,14 @@
 @import '@fontsource/inter/500.css';
 @import '@fontsource/inter/700.css';
 
+body {
+  background: url('/images/vidgo-bg.webp') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /* NOTE: removes green border on chrome when button clicked */
 button:focus {
   outline: none !important;
@@ -13,4 +21,8 @@ button:focus {
 
 #vidgo-img-mobile {
   max-width: 400px;
+}
+
+#vidgo-img-desktop {
+  max-width: 1200px;
 }

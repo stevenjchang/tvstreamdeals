@@ -20,6 +20,7 @@ import { GameUtils } from 'utils/';
 
 const headerStyle = css`
   background-color: #ffffff;
+  opacity: 0.93;
   min-height: calc(100vh - 6rem);
   text-align: center;
 `;
@@ -99,7 +100,11 @@ const NBAGamePage = () => {
             <img alt="vidgo" src="/images/vidgo-mobile1.png" />
             <img alt="vidgo" src="/images/vidgo-mobile2.png" />
           </div>
-          <div id="vidgo-img-desktop" className={tw(`hidden md:block flex justify-center`)}>
+          <div
+            id="vidgo-img-desktop"
+            className={tw(`hidden md:block flex justify-center items-center`)}
+            style={{ margin: '0 auto' }}
+          >
             <img alt="vidgo" src="/images/vidgo.webp" />
           </div>
           <br />
@@ -123,17 +128,16 @@ const NBAGamePage = () => {
               </div>
             </div>
           </div> */}
+          <div className="flex flex-col justify-center items-center">
+            <p className="">Special Deal of The Month: </p>
+            <p className="">Access Live Stream App VIDGO for only $10 first month!</p>
+            <CtaLargeButtonWrapper>
+              <Button primary large>
+                LIVE STREAM NOW!
+              </Button>
+            </CtaLargeButtonWrapper>
+          </div>
         </header>
-
-        <div className="flex flex-col justify-center items-center">
-          <p className="">Special Deal of The Month: </p>
-          <p className="">Access Live Stream App VIDGO for only $10 first month!</p>
-          <CtaLargeButtonWrapper>
-            <Button primary large>
-              LIVE STREAM NOW!
-            </Button>
-          </CtaLargeButtonWrapper>
-        </div>
 
         <main>
           {/* <span className={tw(spanStyle)}>Video Section</span> */}
