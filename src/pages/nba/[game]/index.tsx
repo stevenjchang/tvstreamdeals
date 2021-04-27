@@ -23,6 +23,8 @@ const headerStyle = css`
   background-color: rgb(255, 255, 255, 0.93);
   min-height: calc(100vh - 6rem);
   text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
 `;
 
 const spanStyle = css`
@@ -33,7 +35,9 @@ const spanStyle = css`
 `;
 
 const Team = ({ children }: any) => (
-  <h1 className={tw(`font-sans font-bold text-4xl lg:text-6xl text-center leading-snug text-gray-800`)}>{children}</h1>
+  <h1 className={tw(`font-sans font-bold text-4xl sm:text-6xl lg:text-7xl text-center leading-snug text-gray-800`)}>
+    {children}
+  </h1>
 );
 
 const TestStyledComponentsWithTailwind = styled.h1.attrs<any>({ className: `${tw('bg-red-200')}` })``;
@@ -54,7 +58,7 @@ const NBAGamePage = () => {
       <Page>
         <NextSeo title="" description="" />
         <header className={tw(headerStyle)}>
-          <div className={tw(`max-w-4xl mx-auto py-16 px-8 flex flex-col`)}>
+          <div className={tw(`max-w-4xl mx-auto py-16 flex flex-col`)}>
             <div className="flex justify-center items-center">
               <Team>{team1.name}</Team>
               <p className={tw(`text-xl mx-6`)}>@</p>
@@ -62,7 +66,7 @@ const NBAGamePage = () => {
             </div>
 
             <div id="steaming-time-text" className={tw(`mt-6 max-w-xl mx-auto`)}>
-              <p className={tw(`text-gray-700 text-sm md:text-lg`)}>Streaming Live Today</p>
+              <p className={tw(`text-gray-700 text-sm md:text-lg mr-2`)}>Streaming Live Today</p>
               <p className={tw(`text-gray-700 text-sm md:text-lg`)}>at {time} on ESPN</p>
             </div>
             <br />
@@ -122,12 +126,7 @@ const NBAGamePage = () => {
           </div>
           <br />
           <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
+
           {/* <div className={tw(`flex justify-center w-full`)}>
             <div className={tw(`mt-4 w-full`)}>
               <p className={tw(`font-mono uppercase text-center font-medium text-sm text-gray-600`)}>
