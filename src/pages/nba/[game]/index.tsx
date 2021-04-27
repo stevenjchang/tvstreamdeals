@@ -15,6 +15,7 @@ import CasesSection from '@/components/cases-section';
 import SocialProof from '@/components/social-proof';
 import PricingTable from '@/components/pricing-table';
 import Footer from '@/components/footer';
+import Text from '@/components/text';
 
 import { GameUtils } from 'utils/';
 
@@ -22,6 +23,8 @@ const headerStyle = css`
   background-color: rgb(255, 255, 255, 0.93);
   min-height: calc(100vh - 6rem);
   text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
 `;
 
 const spanStyle = css`
@@ -32,7 +35,9 @@ const spanStyle = css`
 `;
 
 const Team = ({ children }: any) => (
-  <h1 className={tw(`font-sans font-bold text-4xl lg:text-6xl text-center leading-snug text-gray-800`)}>{children}</h1>
+  <h1 className={tw(`font-sans font-bold text-4xl sm:text-6xl lg:text-7xl text-center leading-snug text-gray-800`)}>
+    {children}
+  </h1>
 );
 
 const TestStyledComponentsWithTailwind = styled.h1.attrs<any>({ className: `${tw('bg-red-200')}` })``;
@@ -53,20 +58,29 @@ const NBAGamePage = () => {
       <Page>
         <NextSeo title="" description="" />
         <header className={tw(headerStyle)}>
-          <div className={tw(`max-w-4xl mx-auto py-16 px-14 sm:px-6 lg:px-8 flex flex-col`)}>
+          <div className={tw(`max-w-4xl mx-auto py-16 flex flex-col`)}>
             <div className="flex justify-center items-center">
               <Team>{team1.name}</Team>
               <p className={tw(`text-xl mx-6`)}>@</p>
               <Team>{team2.name}</Team>
             </div>
 
-            <div className={tw(`max-w-xl mx-auto`)}>
-              <p className={tw(`mt-10 text-gray-500 text-lg`)}>Streaming Live Today at {time} on ESPN</p>
+            <div id="steaming-time-text" className={tw(`mt-6 max-w-xl mx-auto`)}>
+              <p className={tw(`text-gray-700 text-sm md:text-lg mr-2`)}>Streaming Live Today</p>
+              <p className={tw(`text-gray-700 text-sm md:text-lg`)}>at {time} on ESPN</p>
             </div>
-            <div className={tw(`mt-10 flex justify-center items-center w-full mx-auto`)}>
-              <Button primary large>
-                WATCH LIVE - $10 FIRST MONTH
-              </Button>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <Text.Info>TV Stream Deal of The Month: VIDGO</Text.Info>
+            <div className={tw(`flex justify-center items-center w-full mx-auto`)}>
+              <CtaLargeButtonWrapper>
+                <Button primary large>
+                  WATCH LIVE - $10 FIRST MONTH
+                </Button>
+              </CtaLargeButtonWrapper>
             </div>
           </div>
           <br />
@@ -112,12 +126,7 @@ const NBAGamePage = () => {
           </div>
           <br />
           <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
+
           {/* <div className={tw(`flex justify-center w-full`)}>
             <div className={tw(`mt-4 w-full`)}>
               <p className={tw(`font-mono uppercase text-center font-medium text-sm text-gray-600`)}>
@@ -132,14 +141,19 @@ const NBAGamePage = () => {
             </div>
           </div> */}
           <div className="flex flex-col justify-center items-center">
-            <p className="">Special Deal of The Month: </p>
-            <p className="">Access Live Stream App VIDGO for only $10 first month!</p>
+            <Text.Info>Special Deal of The Month:</Text.Info>
+            <Text.Info>Access Live Stream App VIDGO for only $10 first month!</Text.Info>
             <CtaLargeButtonWrapper>
               <Button primary large>
                 LIVE STREAM NOW!
               </Button>
             </CtaLargeButtonWrapper>
           </div>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </header>
 
         <main>

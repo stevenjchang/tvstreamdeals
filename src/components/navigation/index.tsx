@@ -20,7 +20,7 @@ const links = [
   },
   {
     label: `Sports`,
-    href: `/nba/042320bosbkn`,
+    href: `/nba/0423200700gswbkn`,
   },
   {
     label: `The App`,
@@ -142,7 +142,7 @@ const Navigation = () => {
               </div>
             </div>
             <div className={tw(`hidden md:block`)}>
-              <div className={tw(`ml-10 flex items-baseline space-x-4`)}>
+              <div className={tw(`flex items-baseline space-x-4`)}>
                 {links.map((link: Link) => (
                   <a
                     key={link.label}

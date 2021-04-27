@@ -12,7 +12,7 @@ const headerStyle = css`
 `;
 
 const Team = ({ children }: any) => (
-  <h1 className={tw(`font-sans font-bold text-4xl md:text-5xl lg:text-8xl text-center leading-snug text-gray-800`)}>
+  <h1 className={tw(`font-sans font-bold text-5xl md:text-7xl lg:text-8xl text-center leading-snug text-gray-800`)}>
     {children}
   </h1>
 );
@@ -20,7 +20,7 @@ const Team = ({ children }: any) => (
 const Header = () => (
   <header className={tw(headerStyle)}>
     <div className={tw(`max-w-4xl mx-auto py-16 px-14 sm:px-6 lg:px-8 flex flex-col`)}>
-      <Team>Celtics</Team>
+      <Team>Celtics dsd</Team>
       <p className={tw(`text-xl`)}>at</p>
       <Team>Nets</Team>
       <div className={tw(`max-w-xl mx-auto`)}>

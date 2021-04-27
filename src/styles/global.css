@@ -15,6 +15,16 @@ button:focus {
   outline: none !important;
 }
 
+button {
+  font-size: 14px !important;
+  width: 100%;
+}
+@media screen and (min-width: 508px) {
+  button {
+    font-size: 16px;
+  }
+}
+
 #footer {
   background-color: rgb(15, 41, 60);
 }
@@ -45,4 +55,15 @@ button:focus {
 }
 #nav-menu-button {
   z-index: 100000000;
+}
+
+#steaming-time-text {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  #steaming-time-text {
+    display: flex;
+    flex-direction: row;
+  }
 }
