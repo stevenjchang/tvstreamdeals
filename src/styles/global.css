@@ -24,5 +24,25 @@ button:focus {
 }
 
 #vidgo-img-desktop {
-  max-width: 1200px;
+  max-width: 1000px;
+  > img {
+  }
+}
+
+#nav {
+  height: 50px;
+}
+@media screen and (min-width: 768px) {
+  #nav {
+    height: 120px;
+  }
+}
+
+#nav-mobile-menu {
+  /* z-index: 100000000; */
+  top: 0;
+  padding-top: 40px;
+}
+#nav-menu-button {
+  z-index: 100000000;
 }

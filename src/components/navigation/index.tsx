@@ -1,6 +1,7 @@
 import { tw } from 'twind';
 import { useState } from 'react';
 import Button from '@/components/button';
+import Logo from '../logo';
 
 interface IMenuButton {
   toggleMenu: React.MouseEventHandler<HTMLButtonElement>;
@@ -61,6 +62,7 @@ const MenuButton = ({ toggleMenu, showMenu }: IMenuButton) => (
     aria-expanded={showMenu}
     onClick={toggleMenu}
     className={tw(`p-2 text-gray-400`)}
+    id="nav-menu-button"
   >
     <span className={tw(`sr-only`)}>Open menu</span>
     {showMenu ? (
@@ -94,8 +96,8 @@ const MenuButton = ({ toggleMenu, showMenu }: IMenuButton) => (
 );
 
 const MobileMenu = () => (
-  <div className={tw(`md:hidden`)} style={{ height: '100vh' }}>
-    <div className={tw(`px-2 pt-2 pb-3 space-y-1 sm:px-3`)}>
+  <div id="nav-mobile-menu" className={tw(`absolute bg-white w-full`)} style={{ height: '100vh' }}>
+    <div className={tw(``)}>
       {links.map((link: Link) => (
         <a
           href={link.href}
@@ -127,12 +129,17 @@ const Navigation = () => {
   const toggleMenu = () => setShowMenu(!showMenu);
 
   return (
-    <nav className={tw(`md:flex sm:justify-start md:justify-center`)} style={{ height: '120px' }}>
-      <div className={tw(`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8`)}>
-        <div className={tw(`flex items-center justify-between h-24`)}>
+    <nav id="nav" className={tw(`md:flex sm:justify-start md:justify-center relative`)}>
+      <div className={tw(`max-w-7xl mx-auto px-4`)}>
+        <div className={tw(`flex items-center justify-between`)}>
           <div className={tw(`flex items-center`)}>
             <div className={tw(`flex-shrink-0`)}>
               {/* <img className={tw(`h-12 w-12`)} src="/logo.svg" alt="logo" width={48} height={48} /> */}
+
+              <div className={tw('hidden md:block')}>
+                <br />
+                <Logo />
+              </div>
             </div>
             <div className={tw(`hidden md:block`)}>
               <div className={tw(`ml-10 flex items-baseline space-x-4`)}>

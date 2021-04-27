@@ -19,8 +19,7 @@ import Footer from '@/components/footer';
 import { GameUtils } from 'utils/';
 
 const headerStyle = css`
-  background-color: #ffffff;
-  opacity: 0.93;
+  background-color: rgb(255, 255, 255, 0.93);
   min-height: calc(100vh - 6rem);
   text-align: center;
 `;
@@ -89,23 +88,27 @@ const NBAGamePage = () => {
           <br />
           <br />
           <br />
-          <h2>FEATURED TV STREAMING APP OF THE MONTH</h2>
           <br />
           <br />
-          <div
-            id="vidgo-img-mobile"
-            className={tw(`md:hidden flex flex-col justify-center items-center`)}
-            style={{ margin: '0 auto' }}
-          >
-            <img alt="vidgo" src="/images/vidgo-mobile1.png" />
-            <img alt="vidgo" src="/images/vidgo-mobile2.png" />
-          </div>
-          <div
-            id="vidgo-img-desktop"
-            className={tw(`hidden md:block flex justify-center items-center`)}
-            style={{ margin: '0 auto' }}
-          >
-            <img alt="vidgo" src="/images/vidgo.webp" />
+          <h2 className={tw(`text-3xl`)}>FEATURED TV STREAMING APP OF THE MONTH</h2>
+          <br />
+          <br />
+          <div style={{ padding: '40px' }}>
+            <div
+              id="vidgo-img-mobile"
+              className={tw(`md:hidden flex flex-col justify-center items-center`)}
+              style={{ margin: '0 auto' }}
+            >
+              <img alt="vidgo" src="/images/vidgo-mobile1.png" />
+              <img alt="vidgo" src="/images/vidgo-mobile2.png" />
+            </div>
+            <div
+              id="vidgo-img-desktop"
+              className={tw(`hidden md:block flex justify-center items-center`)}
+              style={{ margin: '0 auto' }}
+            >
+              <img alt="vidgo" src="/images/vidgo-desktop.png" />
+            </div>
           </div>
           <br />
           <br />
