@@ -97,7 +97,11 @@ const MobileMenu = () => (
   <div className={tw(`md:hidden`)}>
     <div className={tw(`px-2 pt-2 pb-3 space-y-1 sm:px-3`)}>
       {links.map((link: Link) => (
-        <a href={link.href} className={tw(`text-gray-500 block px-3 py-2 text-base font-medium`)} key={link.label}>
+        <a
+          href={link.href}
+          className={tw(`text-gray-500 block px-3 py-2 text-base font-medium uppercase`)}
+          key={link.label}
+        >
           {link.label}
         </a>
       ))}
@@ -136,7 +140,9 @@ const Navigation = () => {
                   <a
                     key={link.label}
                     href={link.href}
-                    className={tw(`text-gray-500 hover:text-gray-600 px-3 py-2 rounded-md font-medium`)}
+                    className={tw(
+                      `text-gray-500 hover:text-gray-600 px-3 py-2 rounded-md font-medium uppercase text-xs`,
+                    )}
                   >
                     {link.label}
                   </a>

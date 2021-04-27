@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import { tw, css } from 'twind/css';
 import styled from 'styled-components';
 
-import Button from '@/components/button';
+import Button, { CtaLargeButtonWrapper } from '@/components/button';
 
 import { NextSeo } from 'next-seo';
 import Page from '@/components/page';
@@ -47,7 +47,6 @@ const NBAGamePage = () => {
   }
 
   const { date, team1, team2, time } = GameUtils.parseGameParamKey(game);
-  console.log('time ==>', time);
 
   GameUtils.toLocalTime();
 
@@ -57,15 +56,18 @@ const NBAGamePage = () => {
         <NextSeo title="" description="" />
         <header className={tw(headerStyle)}>
           <div className={tw(`max-w-4xl mx-auto py-16 px-14 sm:px-6 lg:px-8 flex flex-col`)}>
-            <Team>{team1.name}</Team>
-            <p className={tw(`text-xl`)}>vs</p>
-            <Team>{team2.name}</Team>
+            <div className="flex justify-center items-center">
+              <Team>{team1.name}</Team>
+              <p className={tw(`text-xl mx-6`)}>@</p>
+              <Team>{team2.name}</Team>
+            </div>
+
             <div className={tw(`max-w-xl mx-auto`)}>
-              <p className={tw(`mt-10 text-gray-500 text-xl lg:text-3xl`)}>{time} Today | Apr 24</p>
+              <p className={tw(`mt-10 text-gray-500 text-lg`)}>Streaming Live Today at {time} on ESPN</p>
             </div>
             <div className={tw(`mt-10 flex justify-center items-center w-full mx-auto`)}>
               <Button primary large>
-                Stream Game Live{' '}
+                WATCH LIVE - $10 FIRST MONTH
               </Button>
             </div>
           </div>
@@ -75,6 +77,15 @@ const NBAGamePage = () => {
           <br />
           <br />
           <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <CtaLargeButtonWrapper>
+            <Button primary large>
+              WATCH NBA GAMES LIVE
+            </Button>
+          </CtaLargeButtonWrapper>
           <br />
           <br />
           <br />
@@ -105,6 +116,17 @@ const NBAGamePage = () => {
             </div>
           </div> */}
         </header>
+
+        <div className="flex flex-col justify-center items-center">
+          <p className="">Special Deal of The Month: </p>
+          <p className="">Access Live Stream App VIDGO for only $10 first month!</p>
+          <CtaLargeButtonWrapper>
+            <Button primary large>
+              LIVE STREAM NOW!
+            </Button>
+          </CtaLargeButtonWrapper>
+        </div>
+
         <main>
           {/* <span className={tw(spanStyle)}>Video Section</span> */}
           {/* <VideoSection /> */}
