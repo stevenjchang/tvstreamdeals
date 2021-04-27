@@ -15,13 +15,36 @@ const resourceLinks = [
   `Other resources`,
 ];
 
-const Footer = () => (
-  <footer className={tw(`bg-white border-t border-gray-400 pt-14 pb-16`)}>
-    <div className={tw(`max-w-7xl mx-auto text-gray-400 px-8 lg:px-0 flex flex-wrap`)}>
-      <div className={tw(`mb-14 flex items-center w-full`)}>
-        <img className={tw(`h-12 w-12 mr-4`)} src="/logo.svg" alt="logo" width={48} height={48} />
-        <p className={tw(`text-4xl text-indigo-500 font-bold`)}>TV STREAM DEALS</p>
+const Footer = () => {
+  return (
+    <footer id="footer" className={tw(`text-white pt-14 pb-16`)}>
+      <div className={tw(`mb-14 flex justify-center items-center w-full`)} style={{ margin: '0 auto' }}>
+        <div className={tw(`flex flex-col items-center mr-8`)}>
+          <p className={tw(`text-2xl text-white font-bold`)} style={{ lineHeight: '0.5' }}>
+            TV STREAM
+          </p>
+          <p className={tw(`text-2xl text-white font-bold mb-3`)} style={{ color: '#FCAD19' }}>
+            DEALS
+          </p>
+
+          <p className={tw(`text-xs`)} style={{ letterSpacing: '0.35em' }}>
+            Best Monthly Deals
+          </p>
+        </div>
+        <div className={tw(``)} style={{ maxWidth: '205px' }}>
+          <p className={tw(`text-xs`)} style={{ color: '#CCCCCC', lineHeight: '1.7', letterSpacing: '0.05em' }}>
+            TV STREAM DEALS is a live tv stream review site. We feature monthly deals from streaming apps and channels
+            available by our partners.
+          </p>
+        </div>
       </div>
+    </footer>
+  );
+};
+
+const Footer_old = () => (
+  <footer id="footer" className={tw(`bg-white border-t border-gray-400 pt-14 pb-16`)}>
+    <div className={tw(`max-w-7xl mx-auto text-gray-400 px-8 lg:px-0 flex flex-wrap`)}>
       <div className={tw(`w-full lg:w-1/2`)}>
         <ul className={tw(`text-lg font-light flex flex-wrap w-full`)}>
           <li className={tw(`w-1/2 md:w-1/3 lg:w-1/3`)}>
