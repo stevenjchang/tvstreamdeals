@@ -12,12 +12,15 @@ function toDisplayDate(str: any) {
 }
 export class GameUtils {
   static parseGameParamKey = (key: string | any) => {
+    if (key.length !== 16) console.log('param key wrong length ==>');
     const date = key.substring(0, 6);
     const time = key.substring(6, 10);
     const t1 = key.substring(10, 13);
     const t2 = key.substring(13, 16);
     const team1 = GameUtils.getTeam(t1);
     const team2 = GameUtils.getTeam(t2);
+    console.log('t1 ==>', t1);
+    console.log('t2 ==>', t2);
 
     const test = toDisplayDate(date);
 

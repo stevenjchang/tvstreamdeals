@@ -1,5 +1,7 @@
 import { tw } from 'twind';
+import { CtaLargeButtonWrapper } from './CtaLargeButtonWrapper';
 
+export { CtaLargeButtonWrapper };
 interface IButton {
   primary?: boolean;
   children: React.ReactNode;
@@ -9,7 +11,7 @@ interface IButton {
 
 const Button = ({ primary, large, modifier, children, ...rest }: IButton) => {
   const baseStyle = large
-    ? `font-sans font-semibold py-4 px-12 border rounded uppercase`
+    ? `font-sans font-light py-2 px-2 md:px-16 border rounded tracking-wider uppercase`
     : `font-sans font-medium py-2 px-4 border rounded`;
   const styles = primary
     ? // ? `bg-indigo-600 text-white border-indigo-500 hover:bg-indigo-700`

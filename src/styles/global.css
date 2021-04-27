@@ -2,7 +2,47 @@
 @import '@fontsource/inter/500.css';
 @import '@fontsource/inter/700.css';
 
+body {
+  background: url('/images/vidgo-bg.webp') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /* NOTE: removes green border on chrome when button clicked */
 button:focus {
   outline: none !important;
+}
+
+#footer {
+  background-color: rgb(15, 41, 60);
+}
+
+#vidgo-img-mobile {
+  max-width: 400px;
+}
+
+#vidgo-img-desktop {
+  max-width: 1000px;
+  > img {
+  }
+}
+
+#nav {
+  height: 50px;
+}
+@media screen and (min-width: 768px) {
+  #nav {
+    height: 120px;
+  }
+}
+
+#nav-mobile-menu {
+  /* z-index: 100000000; */
+  top: 0;
+  padding-top: 40px;
+}
+#nav-menu-button {
+  z-index: 100000000;
 }
