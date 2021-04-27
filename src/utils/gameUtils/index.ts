@@ -1,13 +1,4 @@
-const teamMapping: any = {
-  bos: {
-    name: 'Celtics',
-    city: 'Boston',
-  },
-  bkn: {
-    name: 'Nets',
-    city: 'Brooklyn',
-  },
-};
+import * as teams from './teamMapping.json';
 
 function toDisplayTime(timeAsString: any) {
   const h = timeAsString.substring(0, 2);
@@ -34,7 +25,9 @@ export class GameUtils {
   };
 
   static getTeam(abbr: string): Record<string, any> {
-    return teamMapping[abbr] || { name: abbr, city: abbr };
+    const teamMapping = teams.data;
+    const teamObject: any = teamMapping.find((item) => item.abbr === abbr);
+    return teamObject;
   }
 
   static toLocalTime() {
