@@ -32,9 +32,7 @@ const spanStyle = css`
 `;
 
 const Team = ({ children }: any) => (
-  <h1 className={tw(`font-sans font-bold text-4xl md:text-5xl lg:text-8xl text-center leading-snug text-gray-800`)}>
-    {children}
-  </h1>
+  <h1 className={tw(`font-sans font-bold text-4xl lg:text-6xl text-center leading-snug text-gray-800`)}>{children}</h1>
 );
 
 const TestStyledComponentsWithTailwind = styled.h1.attrs<any>({ className: `${tw('bg-red-200')}` })``;
@@ -93,7 +91,17 @@ const NBAGamePage = () => {
           <h2>FEATURED TV STREAMING APP OF THE MONTH</h2>
           <br />
           <br />
-          <img alt="vidgo" src="/images/vidgo.webp" />
+          <div
+            id="vidgo-img-mobile"
+            className={tw(`md:hidden flex flex-col justify-center items-center`)}
+            style={{ margin: '0 auto' }}
+          >
+            <img alt="vidgo" src="/images/vidgo-mobile1.png" />
+            <img alt="vidgo" src="/images/vidgo-mobile2.png" />
+          </div>
+          <div id="vidgo-img-desktop" className={tw(`hidden md:block flex justify-center`)}>
+            <img alt="vidgo" src="/images/vidgo.webp" />
+          </div>
           <br />
           <br />
           <br />
@@ -130,16 +138,16 @@ const NBAGamePage = () => {
         <main>
           {/* <span className={tw(spanStyle)}>Video Section</span> */}
           {/* <VideoSection /> */}
-          <span className={tw(spanStyle)}>List Section</span>
-          <ListSection />
-          <span className={tw(spanStyle)}>Feature Section</span>
-          <FeatureSection />
-          <span className={tw(spanStyle)}>Cases Section</span>
-          <CasesSection />
-          <span className={tw(spanStyle)}>SocialProof Section</span>
-          <SocialProof />
-          <span className={tw(spanStyle)}>Pricing Section</span>
-          <PricingTable />
+          {/* <span className={tw(spanStyle)}>List Section</span> */}
+          {/* <ListSection /> */}
+          {/* <span className={tw(spanStyle)}>Feature Section</span> */}
+          {/* <FeatureSection /> */}
+          {/* <span className={tw(spanStyle)}>Cases Section</span> */}
+          {/* <CasesSection /> */}
+          {/* <span className={tw(spanStyle)}>SocialProof Section</span> */}
+          {/* <SocialProof /> */}
+          {/* <span className={tw(spanStyle)}>Pricing Section</span> */}
+          {/* <PricingTable /> */}
         </main>
         <Footer />
       </Page>
