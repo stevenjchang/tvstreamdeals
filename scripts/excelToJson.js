@@ -31,14 +31,16 @@ const formatTeamMapping = () => {
   // console.log('nbaTeamMapping ==>', nbaTeamMapping);
   const jsonData = JSON.parse(rawData).data;
   const newData = jsonData.map((item) => {
+    const abbr = item.abbreviation.toLowerCase();
     return {
-      abbr: item.abbreviation.toLowerCase(),
+      abbr,
       fullName: item.teamName,
       name: item.simpleName,
       city: item.location,
+      imgUrl: `/images/${abbr}.png`,
     };
   });
-  fs.writeFile('./src/utils/gameUtils/teamMapping.json', JSON.stringify({ data: newData }, null, 4), (err) =>
+  fs.writeFile('./src/utils/gameUtils/teamMapping.json', JSON.stringify({ data: newData }, null, 2), (err) =>
     console.log('writeFile error ==>', err),
   );
   console.log('formatTeamMapping successful ==>', formatTeamMapping);

@@ -12,7 +12,9 @@ function toDisplayDate(str: any) {
 }
 export class GameUtils {
   static parseGameParamKey = (key: string | any) => {
-    if (key.length !== 16) console.log('param key wrong length ==>');
+    if (key.length !== 16) {
+      console.log('**************** param key wrong length ==>', key.length);
+    }
     const date = key.substring(0, 6);
     const time = key.substring(6, 10);
     const t1 = key.substring(10, 13);

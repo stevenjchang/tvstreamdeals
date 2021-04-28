@@ -16,6 +16,7 @@ import SocialProof from '@/components/social-proof';
 import PricingTable from '@/components/pricing-table';
 import Footer from '@/components/footer';
 import Text from '@/components/text';
+import Teams from '@/components/Teams';
 
 import { GameUtils } from 'utils/';
 
@@ -46,8 +47,10 @@ const NBAGamePage = () => {
   const router = useRouter();
   const { game } = router.query;
   if (!game) {
+    console.log('***** NO GAME DATA LOADED ==>');
     return null;
   }
+  console.log('game ==>', game);
 
   const { date, team1, team2, time } = GameUtils.parseGameParamKey(game);
 
@@ -59,13 +62,7 @@ const NBAGamePage = () => {
         <NextSeo title="" description="" />
         <header className={tw(headerStyle)}>
           <div className={tw(`max-w-4xl mx-auto py-16 flex flex-col`)}>
-            <div className="flex justify-center items-center">
-              <img src="/images/gsw.png" style={{ width: '90px' }} />
-              <Team>{team1.name}</Team>
-              <p className={tw(`text-xl mx-6`)}>@</p>
-              <Team>{team2.name}</Team>
-              <img src="/images/gsw.png" style={{ width: '70px' }} />
-            </div>
+            <Teams teams={[team1, team2]} />
 
             <div id="steaming-time-text" className={tw(`mt-6 max-w-xl mx-auto`)}>
               <p className={tw(`text-gray-700 text-sm md:text-lg mr-2`)}>Streaming Live Today</p>
