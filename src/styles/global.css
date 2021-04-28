@@ -3,7 +3,7 @@
 @import '@fontsource/inter/700.css';
 
 body {
-  background: url('/images/vidgo-bg.webp') no-repeat center center fixed;
+  /* background: url('/images/vidgo-bg.webp') no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
