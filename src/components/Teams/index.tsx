@@ -17,7 +17,7 @@ const TeamLogo = styled.img`
 const Teams = ({ teams }: any) => {
   const router = useRouter();
   const { show } = router.query;
-  const showTeams = true; //change this for quick toggle
+  const showTeams = show; //change this for quick toggle
   const [team1, team2] = teams;
   const img1 = showTeams ? team1.imgUrl : 'images/placeholder.svg';
   const img2 = showTeams ? team2.imgUrl : 'images/placeholder.svg';
