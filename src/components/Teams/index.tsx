@@ -14,10 +14,10 @@ const TeamLogo = styled.img`
   margin-right: 16px;
 `;
 
-const Teams = ({ teams }) => {
+const Teams = ({ teams }: any) => {
   const router = useRouter();
   const { show } = router.query;
-  const showTeams = show; //change this for quick toggle
+  const showTeams = true; //change this for quick toggle
   const [team1, team2] = teams;
   const img1 = showTeams ? team1.imgUrl : 'images/placeholder.svg';
   const img2 = showTeams ? team2.imgUrl : 'images/placeholder.svg';
@@ -26,7 +26,8 @@ const Teams = ({ teams }) => {
       <TeamLogo src={img1} />
       <Team>{team1.name}</Team>
 
-      <p className={tw(`text-xl mx-6`)}>@</p>
+      <p className={tw(`text-3xl mx-6`)}>@</p>
+
       <Team>{team2.name}</Team>
       <TeamLogo src={img2} />
     </div>
