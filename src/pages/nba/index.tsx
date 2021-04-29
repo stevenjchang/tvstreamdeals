@@ -64,6 +64,8 @@ const NBAGamePage = () => {
   GameUtils.toLocalTime();
 
   const handleRandomTeams = () => {
+    setTeam1('');
+    setTeam2('');
     const new1 = GameUtils.getRandomTeam();
     const new2 = GameUtils.getRandomTeam();
     setTeam1(new1);
