@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router';
 import { tw, css } from 'twind/css';
 import styled from 'styled-components';
@@ -45,16 +45,30 @@ const TestStyledComponentsWithTailwind = styled.h1.attrs<any>({ className: `${tw
 
 const NBAGamePage = () => {
   const router = useRouter();
-  const { game } = router.query;
+  const { game, isRandom } = router.query;
   if (!game) {
     console.log('***** NO GAME DATA LOADED ==>');
     return null;
   }
+  const [team1, setTeam1] = useState('');
+  const [team2, setTeam2] = useState('');
   console.log('game ==>', game);
 
-  const { date, team1, team2, time } = GameUtils.parseGameParamKey(game);
+  const { date, team1: t1, team2: t2, time } = GameUtils.parseGameParamKey(game);
+
+  useEffect(() => {
+    setTeam1(t1);
+    setTeam2(t2);
+  }, [t1, t2]);
 
   GameUtils.toLocalTime();
+
+  const handleRandomTeams = () => {
+    const new1 = GameUtils.getRandomTeam();
+    const new2 = GameUtils.getRandomTeam();
+    setTeam1(new1);
+    setTeam2(new2);
+  };
 
   return (
     <>
@@ -69,6 +83,9 @@ const NBAGamePage = () => {
               <p className={tw(`text-gray-700 text-sm md:text-lg`)}>at {time} on ESPN</p>
             </div>
             <br />
+            <button type="button" className={tw('text-indigo-500')} onClick={handleRandomTeams}>
+              randomize teams
+            </button>
             <br />
             <br />
             <br />

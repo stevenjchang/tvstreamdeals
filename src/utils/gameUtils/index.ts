@@ -11,7 +11,7 @@ function toDisplayDate(str: any) {
   const d = new Date(str);
 }
 export class GameUtils {
-  static parseGameParamKey = (key: string | any) => {
+  static parseGameParamKey = (key: string | any): any => {
     if (key.length !== 16) {
       console.log('**************** param key wrong length ==>', key.length);
     }
@@ -33,6 +33,13 @@ export class GameUtils {
     const teamMapping = teams.data;
     const teamObject: any = teamMapping.find((item) => item.abbr === abbr);
     return teamObject;
+  }
+
+  static getRandomTeam(): any {
+    const randomIndex = Math.floor(Math.random() * 30);
+    const teamMapping = teams.data;
+    console.log('*** ==>', randomIndex, '|', teamMapping[randomIndex]);
+    return teamMapping[randomIndex];
   }
 
   static toLocalTime() {
