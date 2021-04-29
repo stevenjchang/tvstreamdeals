@@ -5,210 +5,210 @@
       "fullName": "Atlanta Hawks",
       "name": "Hawks",
       "city": "Atlanta",
-      "imgUrl": "/images/atl.png"
+      "imgUrl": "/images/teams/atl.svg"
     },
     {
       "abbr": "bos",
       "fullName": "Boston Celtics",
       "name": "Celtics",
       "city": "Boston",
-      "imgUrl": "/images/bos.png"
+      "imgUrl": "/images/teams/bos.svg"
     },
     {
       "abbr": "bkn",
       "fullName": "Brooklyn Nets",
       "name": "Nets",
       "city": "Brooklyn",
-      "imgUrl": "/images/bkn.png"
+      "imgUrl": "/images/teams/bkn.svg"
     },
     {
       "abbr": "cha",
       "fullName": "Charlotte Hornets",
       "name": "Hornets",
       "city": "Charlotte",
-      "imgUrl": "/images/cha.png"
+      "imgUrl": "/images/teams/cha.svg"
     },
     {
       "abbr": "chi",
       "fullName": "Chicago Bulls",
       "name": "Bulls",
       "city": "Chicago",
-      "imgUrl": "/images/chi.png"
+      "imgUrl": "/images/teams/chi.svg"
     },
     {
       "abbr": "cle",
       "fullName": "Cleveland Cavaliers",
       "name": "Cavaliers",
       "city": "Cleveland",
-      "imgUrl": "/images/cle.png"
+      "imgUrl": "/images/teams/cle.svg"
     },
     {
       "abbr": "dal",
       "fullName": "Dallas Mavericks",
       "name": "Mavericks",
       "city": "Dallas",
-      "imgUrl": "/images/dal.png"
+      "imgUrl": "/images/teams/dal.svg"
     },
     {
       "abbr": "den",
       "fullName": "Denver Nuggets",
       "name": "Nuggets",
       "city": "Denver",
-      "imgUrl": "/images/den.png"
+      "imgUrl": "/images/teams/den.svg"
     },
     {
       "abbr": "det",
       "fullName": "Detroit Pistons",
       "name": "Pistons",
       "city": "Detroit",
-      "imgUrl": "/images/det.png"
+      "imgUrl": "/images/teams/det.svg"
     },
     {
       "abbr": "gsw",
       "fullName": "Golden State Warriors",
       "name": "Warriors",
       "city": "Golden State",
-      "imgUrl": "/images/gsw.png"
+      "imgUrl": "/images/teams/gsw.svg"
     },
     {
       "abbr": "hou",
       "fullName": "Houston Rockets",
       "name": "Rockets",
       "city": "Houston",
-      "imgUrl": "/images/hou.png"
+      "imgUrl": "/images/teams/hou.svg"
     },
     {
       "abbr": "ind",
       "fullName": "Indiana Pacers",
       "name": "Pacers",
       "city": "Indiana",
-      "imgUrl": "/images/ind.png"
+      "imgUrl": "/images/teams/ind.svg"
     },
     {
       "abbr": "lac",
       "fullName": "Los Angeles Clippers",
       "name": "Clippers",
       "city": "Los Angeles",
-      "imgUrl": "/images/lac.png"
+      "imgUrl": "/images/teams/lac.svg"
     },
     {
       "abbr": "lal",
       "fullName": "Los Angeles Lakers",
       "name": "Lakers",
       "city": "Los Angeles",
-      "imgUrl": "/images/lal.png"
+      "imgUrl": "/images/teams/lal.svg"
     },
     {
       "abbr": "mem",
       "fullName": "Memphis Grizzlies",
       "name": "Grizzlies",
       "city": "Memphis",
-      "imgUrl": "/images/mem.png"
+      "imgUrl": "/images/teams/mem.svg"
     },
     {
       "abbr": "mia",
       "fullName": "Miami Heat",
       "name": "Heat",
       "city": "Miami",
-      "imgUrl": "/images/mia.png"
+      "imgUrl": "/images/teams/mia.svg"
     },
     {
       "abbr": "mil",
       "fullName": "Milwaukee Bucks",
       "name": "Bucks",
       "city": "Milwaukee",
-      "imgUrl": "/images/mil.png"
+      "imgUrl": "/images/teams/mil.svg"
     },
     {
       "abbr": "min",
       "fullName": "Minnesota Timberwolves",
       "name": "Timberwolves",
       "city": "Minnesota",
-      "imgUrl": "/images/min.png"
+      "imgUrl": "/images/teams/min.svg"
     },
     {
       "abbr": "nop",
       "fullName": "New Orleans Pelicans",
       "name": "Pelicans",
       "city": "New Orleans",
-      "imgUrl": "/images/nop.png"
+      "imgUrl": "/images/teams/nop.svg"
     },
     {
       "abbr": "nyk",
       "fullName": "New York Knicks",
       "name": "Knicks",
       "city": "New York",
-      "imgUrl": "/images/nyk.png"
+      "imgUrl": "/images/teams/nyk.svg"
     },
     {
       "abbr": "okc",
       "fullName": "Oklahoma City Thunder",
       "name": "Thunder",
       "city": "Oklahoma City",
-      "imgUrl": "/images/okc.png"
+      "imgUrl": "/images/teams/okc.svg"
     },
     {
       "abbr": "orl",
       "fullName": "Orlando Magic",
       "name": "Magic",
       "city": "Orlando",
-      "imgUrl": "/images/orl.png"
+      "imgUrl": "/images/teams/orl.svg"
     },
     {
       "abbr": "phi",
       "fullName": "Philadelphia 76ers",
       "name": "76ers",
       "city": "Philadelphia",
-      "imgUrl": "/images/phi.png"
+      "imgUrl": "/images/teams/phi.svg"
     },
     {
       "abbr": "phx",
       "fullName": "Phoenix Suns",
       "name": "Suns",
       "city": "Phoenix",
-      "imgUrl": "/images/phx.png"
+      "imgUrl": "/images/teams/phx.svg"
     },
     {
       "abbr": "por",
       "fullName": "Portland Trail Blazers",
       "name": "Trail Blazers",
       "city": "Portland",
-      "imgUrl": "/images/por.png"
+      "imgUrl": "/images/teams/por.svg"
     },
     {
       "abbr": "sac",
       "fullName": "Sacramento Kings",
       "name": "Kings",
       "city": "Sacramento",
-      "imgUrl": "/images/sac.png"
+      "imgUrl": "/images/teams/sac.svg"
     },
     {
       "abbr": "sas",
       "fullName": "San Antonio Spurs",
       "name": "Spurs",
       "city": "San Antonio",
-      "imgUrl": "/images/sas.png"
+      "imgUrl": "/images/teams/sas.svg"
     },
     {
       "abbr": "tor",
       "fullName": "Toronto Raptors",
       "name": "Raptors",
       "city": "Toronto",
-      "imgUrl": "/images/tor.png"
+      "imgUrl": "/images/teams/tor.svg"
     },
     {
       "abbr": "uta",
       "fullName": "Utah Jazz",
       "name": "Jazz",
       "city": "Utah",
-      "imgUrl": "/images/uta.png"
+      "imgUrl": "/images/teams/uta.svg"
     },
     {
       "abbr": "was",
       "fullName": "Washington Wizards",
       "name": "Wizards",
       "city": "Washington",
-      "imgUrl": "/images/was.png"
+      "imgUrl": "/images/teams/was.svg"
     }
   ]
 }
