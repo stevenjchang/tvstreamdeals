@@ -37,7 +37,7 @@ const formatTeamMapping = () => {
       fullName: item.teamName,
       name: item.simpleName,
       city: item.location,
-      imgUrl: `/images/${abbr}.png`,
+      imgUrl: `/images/teams/${abbr}.svg`,
     };
   });
   fs.writeFile('./src/utils/gameUtils/teamMapping.json', JSON.stringify({ data: newData }, null, 2), (err) =>
